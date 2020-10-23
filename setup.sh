@@ -53,5 +53,7 @@ sudo echo "rsn_pairwise=CCMP" >> $HOSTAPD_CONF
 sudo systemctl enable ssh
 sudo systemctl start ssh
 
+# TODO: prompt before reboot
+
 # Reboot
-# sudo reboot
+sudo reboot
