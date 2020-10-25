@@ -55,17 +55,13 @@ echo "rsn_pairwise=CCMP" | sudo tee -a $HOSTAPD_CONF
 sudo systemctl enable ssh
 sudo systemctl start ssh
 
-
-
-
-
-
-
-
-
-
-
-
+# Setup mavproxy to autostart on boot
+wget "https://raw.githubusercontent.com/dbaldwin/RAD-MAVLink-Bridge/main/mavgateway"
+sudo mv mavgateway /etc/init.d/mavgateway
+cd /etc/init.d/
+sudo chown root:root mavgateway
+sudo chmod 755 mavgateway
+sudo update-rc.d mavgateway defaults
 
 # Disable serial console
 #sed 's/console=serial0,115200 //' /boot/cmdline.txt
