@@ -55,6 +55,24 @@ echo "rsn_pairwise=CCMP" | sudo tee -a $HOSTAPD_CONF
 sudo systemctl enable ssh
 sudo systemctl start ssh
 
+
+
+
+
+
+
+
+
+
+
+
+
+# Disable serial console
+#sed 's/console=serial0,115200 //' /boot/cmdline.txt
+
+# Enable uart for MAVLink communication
+#echo "enable_uart=1" | sudo tee -a /boot/config.txt
+
 # TODO: prompt before reboot
 
 # Reboot
