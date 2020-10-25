@@ -10,6 +10,7 @@
 ### END INIT INFO
 
 # Author: Kevin Hester <kevinh@geeksville.com>
+# https://raw.githubusercontent.com/dronekit/dronekit-python/3222b2cdb71b8b4c5b924ee28fc5d3529be00e67/scripts/mavgateway
 
 # Do NOT "set -e"
 
