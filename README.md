@@ -14,8 +14,20 @@ This script takes bits and pieces from the following articles to offer the simpl
 * https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
 
 ***
-### Installing
+
+## Installing
 Shell into pi and run:
 * wget "https://raw.githubusercontent.com/dbaldwin/RAD-MAVLink-Bridge/main/setup.sh"
 * chmod a+x setup.sh
 * sudo ./setup.sh
+* Be sure to plug in your telemetry radio when rebooting
+
+***
+
+## Configuration
+* After reboot connect to rad-bridge wifi
+* Configure QGC or Mission Planner
+* IP of Pi will be 192.168.4.1
+
+
+
