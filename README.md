@@ -1,9 +1,16 @@
 # RAD-MAVLink-Bridge
-MAVLink Wifi Bridge with RPi 3 Model B+ with Built-in Wifi
+MAVLink Wifi Bridge for Raspberry Pi with Built-in Wifi
 
 * Must have built-in Wifi (will add support for USB wifi later)
 * Make sure to get IP address before reboot and hopefully your router keeps that same IP
 * Make sure to run with sudo! This is important!
+
+This script has been tested on the following models:
+
+* Raspberry Pi 3 Model B+
+* Raspberry Pi 4 Model B
+
+Please consider testing with different versions of Pi and let us know if you run into any issues.
 
 ***
 
