@@ -17,13 +17,13 @@ Please consider testing with different versions of Pi and let us know if you run
 ## Reference Links
 This script takes bits and pieces from the following articles to offer the simplest path to get up and running. If you'd like to learn more about what's going on in the ssetup script be sure to check out these links:
 
-* https://ardupilot.org/dev/docs/making-a-mavlink-wifi-bridge-using-the-raspberry-pi.html
-* https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md
+* <a href="https://ardupilot.org/dev/docs/making-a-mavlink-wifi-bridge-using-the-raspberry-pi.html" target="_blank">https://ardupilot.org/dev/docs/making-a-mavlink-wifi-bridge-using-the-raspberry-pi.html</a>
+* <a href="https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md" target="_blank">https://www.raspberrypi.org/documentation/configuration/wireless/access-point-routed.md</a>
 
 ***
 
 ## Installing
-Shell into pi and run:
+Fire up your KVM or shell into Pi and run:
 * wget "https://raw.githubusercontent.com/dbaldwin/RAD-MAVLink-Bridge/main/setup.sh"
 * chmod a+x setup.sh
 * sudo ./setup.sh
