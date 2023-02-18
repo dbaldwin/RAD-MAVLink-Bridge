@@ -6,7 +6,7 @@
 sudo apt update
 
 # Install Python and MavProxy
-sudo apt install python-pip python-dev libxml2-dev libxslt-dev
+sudo apt install python3-pip python3-dev libxml2-dev libxslt-dev
 sudo pip install MAVProxy
 
 # Install networking files
