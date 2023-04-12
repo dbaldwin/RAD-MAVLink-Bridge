@@ -57,7 +57,7 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 
 # Setup mavproxy to autostart on boot
-wget "https://raw.githubusercontent.com/dbaldwin/RAD-MAVLink-Bridge/main/mavp2pgateway"
+wget "https://github.com/dbaldwin/RAD-MAVLink-Bridge/blob/feature/mavp2p/mavp2pgateway"
 sudo mv mavp2pgateway /etc/init.d/mavp2pgateway
 cd /etc/init.d/
 sudo chown root:root mavp2pgateway
